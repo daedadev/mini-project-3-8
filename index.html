@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+ <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./assets/css/style.css"/>
+</head>
+ <body class="flex-column min-100-vh">
+    <header class="hero">
+        <h1 class="app-title"><i class=""></i>Library of Congress Search Engine</h1>
+    </header>   
+    <main class="flex-row justify-space-between">
+        <div class="card">
+            <h2 class="card-header text-uppercase">Search Here</h2>
+            <form id="library-form" class="card-body">
+                <label class="form-label" for="library">Library of Congress</label>
+                <input name="library" id="library" type="text" autofocus="true" class="form-input"/>
+                <button onclick="myFunction()" type="submit" class="btn">Click Me</button>
+                <select id="format-select">
+                    <option value="maps-sel">maps</option>
+                    <option value="audio-sel">audio</option>  
+                    <option value="photo-sel">photos</option>
+                    <option value="manuscripts-sel">manuscripts</option>
+                    <option value="newspapers-sel">newspapers</option>
+                    <option value="film-and-video-sel">film-and-video</option>
+                    <option value="notated-music-sel">notated-music</option>
+                    <option value="websites-sel">websites</option>
+                </select>
+            </form>
+
+        </div>
+    </main>
+     <script src="index.js"/>      
+ </body>
+</html>
