@@ -1,0 +1,31 @@
+#libBody{
+
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 57, 57);
+    height: 100%;
+
+}
+
+#libHeader{
+
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 25%;
+    background-color: wheat;
+    padding: 1%;
+
+}
+
+#libResults{
+
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    height: 100%;
+    width: 75%;
+    padding: 1%;
+
+}
+
